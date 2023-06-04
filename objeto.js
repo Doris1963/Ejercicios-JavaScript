@@ -45,6 +45,8 @@ class Persona {
         this.correo;
         this.edad;
 
+
+
     }
     getDatos() {
         const datos = `Nombres: ${this.nombres}
@@ -61,8 +63,6 @@ class Persona {
          if(this,edad<0=17) return "menor de edad";
        else return "adulto mayor"
 }
-
-   
 
  }
 

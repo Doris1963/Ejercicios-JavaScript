@@ -1,63 +1,79 @@
+//funcion objetivo es nos evita reescribir el coodigo , mas orenado y cumplir una sola taREA
+//
+
+
 /*solo se puede solo una funcion
  function nombre de la funcion (parametros){
 
     CUERPO DE LA FUNCION 
     
     RETURN AUNQUE ES OPCIONAL 
- }*/
- /* 'use strict'
- function suma (num1,num2){
+ }
+'use strict'
+ function sumar (num1,num2){
 return num1+num2;
  }
- console.log (suma(2,6));*/
+ console.log (sumar(12,16));
 
-/* funcion flecha 
+/* funTcion flecha 
 
- const nombre de la funcion= (parametros )=>{
+const nombre de la funcion= (parametros )=>{
 cuerpo de la funcion 
 return
- }*/
+ }
 ' use stict'
- const sumar=(num1,num2)=>{
+const sumar=(num1,num2)=>{
 const suma=num1+num2;
 return suma
 
  }
- console.log (sumar(10.20));  /*tambien s e puede escribir */
+ console.log (sumar(10.20));  /*tambien s e puede escribir 
 
- const suma=(num1,nume2)=> num1+num2;
+ const sumar = (num1,num2)=> {
+ const suma=num1+num2;
+ return suma;
+ }
+   
  console.log (sumar(10.20));
+se puede tambien quitar las llames y la constante suma *
+ 
+ const sumar1 = (num1,num2) => num1+num2;
+     
+   console.log (sumar1(10.20));*/
+  
 
- /*funcion como expresion*/
+
+
+ /*funcion como expresion*
 
  const saludo= function(){
 
     return("hola mundo ")
-    console.log (saludo())
+    console.log (saludo())*-+++++++++++++
  }
 
  'use strict' 
- const resta= function (){
+  const resta= function (){
   let mensaje='hola esto es un mensaje';
   return mensaje;
  }
 
  let receptor= resta();
- console.log (receptor); /* tambien recibe valores*/
+ console.log (receptor); /* tambien recibe valores
 
  const resta1= function (){
     let mensaje='hola esto es un mensaje'; //tambien recibw vALORES 
     return mensaje;
-   }
-   const resta2= function (num1,num2){
-    let mensaje='resta:${num1-num2}';
+   }*/
+   const resta= function (num1,num2){
+    let mensaje= `resta:${num1-num2}`;
     return mensaje;
-   }
+   }  
    let receptor1= resta(4,2);
    console.log (receptor);
 
    /*template string o plantilla de cadenna sliterales
-    permite crear  una cadena libreral con espacio valores hasta claculos matematicaos */
+    permite crear  una cadena libreral con espacio valores hasta claculos matematicaos 
     'use strict'
 
     let fecha =new Date();
@@ -72,11 +88,11 @@ return suma
     /* funciones como objetos
     partes de la funcion 
     let cedinsi= cedinsi
-    const saludo = new function ("mensaje,"reurn 'hola mundo '+mensaje);*/
+    const saludo = new function ("mensaje,"reurn 'hola mundo '+mensaje);
 
     let cedinsi= cedinsi;
     const saludo1 = new Function ("mensaje","return'hokla mundo'+mensaje1");
-    console.log (saludo(cedinsi));  /*otro ejemplo*/
+    console.log (saludo(cedinsi));  /*otro ejemplo
 
     let numero1=4;
     let numero2=9;
@@ -87,7 +103,7 @@ return suma
 
     /*callbacks
 
-   /* los callbacks una funcion pasada por parametros por otro funciones*/
+   /* los callbacks una funcion pasada por parametros por otro funciones
 
    let cedinsi1="cedinsi";
    const saludo2= function (msj){
@@ -98,7 +114,7 @@ return suma
    callback(msj);
 
    }
-   saludar(saludo, cedinsi);
+   saludar(saludo, cedinsi);*/
     
     
     
@@ -135,4 +151,3 @@ return suma
     
     
     
-    i1)
